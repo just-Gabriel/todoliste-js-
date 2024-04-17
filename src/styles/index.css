@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(202, 218, 250);
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  /* justify-content: space-between ; */
+  /* align-items: center;  */
+  height: 100vh;
+}
+/* ------------------------------------------------------------------------------------------------------ */
+.btn-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* Hover (lorsque la souris survole le bouton) */
+.btn-1:hover {
+  background-color: #5f88b1;
+  background-color: #5f88b1;
+}
+
+/* Focus (lorsque le bouton est sélectionné) */
+.btn-1:focus {
+  /* outline: none; */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); /* Bordure bleue autour du bouton */
+}
+
+/* Si le bouton est désactivé */
+.btn-1:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Si le bouton a une classe spécifique (par exemple, btn-primary)
+.btn-1.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+} */
+
+/* Autres styles de bouton 
+ Exemple pour un bouton de couleur rouge 
+.btn-1.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+ Exemple pour un bouton de couleur verte 
+.btn-1.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+} */
+/* --------------------------------------------------------------------------------------------------------- */
+.link {
+  padding: 20px; /* Ajoutez un espace intérieur pour le contenu */
+  /* border: 2px dashed #c959df; Bordure en tirets de couleur grise */
+  display: inline-block; /* Affiche la div comme un bloc en ligne */
+}
+
+/* Style du lien à l'intérieur de la div */
+.link a {
+  color: #f3f5f7; /* Couleur du lien (bleu) */
+  text-decoration: none; /* Supprime le soulignement par défaut du lien */
+  font-weight: bold; /* Met en gras le texte du lien */
+}
+
+/* Style du lien au survol */
+.link a:hover {
+  text-decoration: underline; /* Souligne le lien au survol */
+}
+
+.link-error {
+  color: #ff0000; /* Couleur du lien (bleu) */
+  text-decoration: none; /* Supprime le soulignement par défaut du lien */
+  font-weight: bold;
+}
+.link-error a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style du lien au survol */
+.link-error a:hover {
+  text-decoration: underline;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+.header {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
